@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta Casa Selva — docs/design-system.md */
+  --color-azul-noche: #142532;
+  --color-verde-selva: #223634;
+  --color-terracota: #955d25;
+  --color-azul-acero: #2f4a5c;
+  --color-crema: #ece4d7;
+  --color-arena: #d9c0a2;
+
+  --background: var(--color-crema);
+  --foreground: var(--color-azul-noche);
+}
+
+@theme inline {
+  --color-azul-noche: var(--color-azul-noche);
+  --color-verde-selva: var(--color-verde-selva);
+  --color-terracota: var(--color-terracota);
+  --color-azul-acero: var(--color-azul-acero);
+  --color-crema: var(--color-crema);
+  --color-arena: var(--color-arena);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-display: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

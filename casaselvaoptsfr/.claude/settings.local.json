@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p assets/brand assets/photos assets/agent)",
+      "Bash(cp \"/root/.claude/uploads/865329d1-d76b-569a-a405-a51d075f781e/a24d553f-Branding_CSS.pdf\" assets/brand/Branding_CSS.pdf)"
+    ]
+  }
+}

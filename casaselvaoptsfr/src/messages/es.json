@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "habitaciones": "Habitaciones",
+    "amenidades": "Amenidades",
+    "galeria": "Galería",
+    "nosotros": "Nosotros",
+    "testimonios": "Testimonios",
+    "contacto": "Contacto",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "heroTitulo": "Casa Selva Sayulita",
+    "heroTagline": "conecta con la naturaleza",
+    "heroDescripcion": "Cabañas privadas de madera de parota, construidas en armonía con la selva tropical de Riviera Nayarit, a 150 metros de la Playa Norte de Sayulita.",
+    "ctaHabitaciones": "Ver cabañas",
+    "ctaWhatsapp": "Escríbenos por WhatsApp",
+    "introTitulo": "Una experiencia de desconexión íntima",
+    "introTexto": "13 cabañas privadas rodeadas de vegetación endémica y un arroyo natural, a pasos del océano Pacífico y a 5 minutos caminando de la plaza principal de Sayulita.",
+    "seccionCabanasTitulo": "Nuestras cabañas",
+    "seccionCabanasTexto": "Cinco estilos de cabaña, todos diseñados para parejas — la Treehouse admite hasta 3 personas.",
+    "verTodas": "Ver todas las cabañas",
+    "seccionAmenidadesTitulo": "Amenidades",
+    "verAmenidades": "Ver todas las amenidades",
+    "chatTitulo": "¿Tienes dudas o quieres cotizar?",
+    "chatTexto": "Selva, nuestro asistente de reservas, te ayuda a elegir cabaña, cotizar por temporada y dejar tu solicitud de reserva."
+  },
+  "habitaciones": {
+    "titulo": "Habitaciones",
+    "subtitulo": "Todas las cabañas están diseñadas para parejas, salvo la Treehouse que admite hasta 3 personas.",
+    "capacidad": "Capacidad",
+    "superficie": "Superficie",
+    "distribucion": "Distribución",
+    "vista": "Vista",
+    "destacado": "Lo que la distingue",
+    "tarifas": "Tarifas por noche (incluye desayuno para 2)",
+    "verDetalle": "Ver detalle",
+    "volver": "Volver a habitaciones",
+    "notaTarifas": "Las tarifas pueden cambiar en fechas especiales (Semana Santa, Año Nuevo, Navidad). Confirma siempre con nuestro equipo. Disponible renta mensual en temporada baja y media — consulta por WhatsApp."
+  },
+  "amenidades": {
+    "titulo": "Amenidades",
+    "propiedad": "En toda la propiedad",
+    "cabana": "En cada cabaña"
+  },
+  "galeria": {
+    "titulo": "Galería",
+    "pendiente": "Las fotos reales de Casa Selva se agregarán próximamente. Este es un espacio reservado para la galería."
+  },
+  "nosotros": {
+    "titulo": "Nosotros",
+    "texto1": "Casa Selva Sayulita nació con el propósito de ofrecer una experiencia de desconexión íntima, rodeada de naturaleza, a pasos del océano Pacífico.",
+    "texto2": "Nuestras 13 cabañas de madera de parota se construyeron en armonía con la selva tropical de Riviera Nayarit, respetando los árboles endémicos, la vegetación y el arroyo natural que atraviesa la propiedad.",
+    "texto3": "Sayulita es un Pueblo Mágico de Nayarit, conocido por su ambiente intercultural, surf, gastronomía, arte y biodiversidad — el lugar perfecto para vivir Casa Selva."
+  },
+  "testimonios": {
+    "titulo": "Testimonios",
+    "pendiente": "Aún no hay reseñas cargadas en el prototipo. Esta sección mostrará las experiencias de huéspedes anteriores."
+  },
+  "contacto": {
+    "titulo": "Contacto y ubicación",
+    "direccion": "Dirección",
+    "comoLlegar": "Cómo llegar",
+    "comoLlegarTexto": "A 150 metros de la Playa Norte de Sayulita (~2 min caminando) y a 5 minutos caminando de la plaza principal. El aeropuerto más cercano es el Aeropuerto Internacional de Puerto Vallarta (PVR), a unos 50 km (45–60 min en auto).",
+    "checkInOut": "Check-in / Check-out",
+    "escribenos": "Escríbenos"
+  },
+  "footer": {
+    "derechos": "Todos los derechos reservados."
+  },
+  "chat": {
+    "nombre": "Selva",
+    "placeholder": "Aquí se conectará el agente de reservas Selva (Relevance AI) en la Fase 2 del proyecto."
+  }
+}
