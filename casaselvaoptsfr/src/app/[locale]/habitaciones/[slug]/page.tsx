@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { CABANAS, TEMPORADAS, getCabanaBySlug } from "@/data/cabanas";
 import { routing } from "@/i18n/routing";
 
@@ -39,7 +40,15 @@ function CabanaDetalle({ cabana }: { cabana: NonNullable<ReturnType<typeof getCa
         {cabana.nombre}
       </h1>
 
-      <div className="mt-6 aspect-[16/9] w-full rounded-2xl bg-azul-acero/20" />
+      <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-azul-acero/20">
+        <Image
+          src={cabana.foto}
+          alt={cabana.nombre}
+          fill
+          sizes="(min-width: 768px) 768px, 100vw"
+          className="object-cover"
+        />
+      </div>
 
       <dl className="mt-8 grid gap-6 sm:grid-cols-2">
         <div>

@@ -8,6 +8,7 @@ export interface TarifaTemporada {
 export interface Cabana {
   slug: string;
   nombre: string;
+  foto: string;
   capacidad: { es: string; en: string };
   superficie: string;
   distribucion: { es: string; en: string };
@@ -42,6 +43,7 @@ export const CABANAS: Cabana[] = [
   {
     slug: "canopy-cabin",
     nombre: "Canopy Cabin",
+    foto: "/images/cabanas/canopy-cabin.jpg",
     capacidad: { es: "2 personas (pareja)", en: "2 guests (couple)" },
     superficie: "~40 m²",
     distribucion: {
@@ -62,6 +64,7 @@ export const CABANAS: Cabana[] = [
   {
     slug: "jungle-nest",
     nombre: "Jungle Nest",
+    foto: "/images/cabanas/jungle-nest.jpg",
     capacidad: { es: "2 personas (pareja)", en: "2 guests (couple)" },
     superficie: "~50 m²",
     distribucion: {
@@ -82,6 +85,7 @@ export const CABANAS: Cabana[] = [
   {
     slug: "treehouse",
     nombre: "Treehouse",
+    foto: "/images/cabanas/treehouse.jpg",
     capacidad: { es: "Hasta 3 personas", en: "Up to 3 guests" },
     superficie: "~60 m²",
     distribucion: {
@@ -105,6 +109,7 @@ export const CABANAS: Cabana[] = [
   {
     slug: "casa-selva",
     nombre: "Casa Selva",
+    foto: "/images/cabanas/casa-selva.jpg",
     capacidad: { es: "2 personas (pareja)", en: "2 guests (couple)" },
     superficie: "~60 m²",
     distribucion: {
@@ -125,6 +130,7 @@ export const CABANAS: Cabana[] = [
   {
     slug: "jungle-heart",
     nombre: "Jungle Heart",
+    foto: "/images/cabanas/jungle-heart.jpg",
     capacidad: { es: "2 personas (pareja)", en: "2 guests (couple)" },
     superficie: "~55 m²",
     distribucion: {

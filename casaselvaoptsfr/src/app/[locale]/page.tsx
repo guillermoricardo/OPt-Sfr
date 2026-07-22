@@ -5,6 +5,7 @@ import { AMENIDADES_PROPIEDAD } from "@/data/amenidades";
 import { SITE } from "@/data/site";
 import { FOTOS_HERO } from "@/data/photos";
 import Carousel from "@/components/Carousel";
+import Image from "next/image";
 
 export default function HomePage() {
   const t = useTranslations("home");
@@ -86,7 +87,15 @@ export default function HomePage() {
                 href={`/habitaciones/${cabana.slug}`}
                 className="group rounded-2xl border border-azul-noche/10 bg-crema p-6 shadow-sm transition-shadow hover:shadow-md"
               >
-                <div className="aspect-[4/3] w-full rounded-xl bg-azul-acero/20" />
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-azul-acero/20">
+                  <Image
+                    src={cabana.foto}
+                    alt={cabana.nombre}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
                 <h3 className="mt-4 font-display text-lg tracking-wider text-azul-noche">
                   {cabana.nombre}
                 </h3>
