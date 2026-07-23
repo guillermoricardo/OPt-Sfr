@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Home",
+    "habitaciones": "Cabins",
+    "amenidades": "Amenities",
+    "galeria": "Gallery",
+    "nosotros": "About us",
+    "testimonios": "Testimonials",
+    "contacto": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "heroTitulo": "Casa Selva Sayulita",
+    "heroTagline": "connect with nature",
+    "heroDescripcion": "Private parota-wood cabins, built in harmony with the tropical jungle of Riviera Nayarit, 150 meters from Sayulita's Playa Norte.",
+    "ctaHabitaciones": "See cabins",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "introTitulo": "An intimate escape into nature",
+    "introTexto": "13 private cabins surrounded by endemic vegetation and a natural stream, steps from the Pacific Ocean and a 5-minute walk from Sayulita's main square.",
+    "seccionCabanasTitulo": "Our cabins",
+    "seccionCabanasTexto": "Five cabin styles, all designed for couples — the Treehouse admits up to 3 guests.",
+    "verTodas": "See all cabins",
+    "seccionAmenidadesTitulo": "Amenities",
+    "verAmenidades": "See all amenities",
+    "chatTitulo": "Questions or want a quote?",
+    "chatTexto": "Selva, our booking assistant, helps you pick a cabin, get a seasonal quote, and leave your reservation request."
+  },
+  "habitaciones": {
+    "titulo": "Cabins",
+    "subtitulo": "All cabins are designed for couples, except the Treehouse which admits up to 3 guests.",
+    "capacidad": "Capacity",
+    "superficie": "Size",
+    "distribucion": "Layout",
+    "vista": "View",
+    "destacado": "What makes it special",
+    "tarifas": "Rates per night (breakfast for 2 included)",
+    "verDetalle": "See detail",
+    "volver": "Back to cabins",
+    "notaTarifas": "Rates may change on special dates (Easter, New Year, Christmas). Always confirm with our team. Monthly rentals available in low and mid season — ask us on WhatsApp."
+  },
+  "amenidades": {
+    "titulo": "Amenities",
+    "propiedad": "Across the property",
+    "cabana": "In every cabin"
+  },
+  "galeria": {
+    "titulo": "Gallery",
+    "pendiente": "Real photos of Casa Selva will be added soon. This is a placeholder for the gallery."
+  },
+  "nosotros": {
+    "titulo": "About us",
+    "texto1": "Casa Selva Sayulita was created to offer an intimate escape into nature, steps from the Pacific Ocean.",
+    "texto2": "Our 13 parota-wood cabins were built in harmony with the tropical jungle of Riviera Nayarit, respecting the endemic trees, vegetation, and the natural stream that runs through the property.",
+    "texto3": "Sayulita is a Pueblo Mágico of Nayarit, known for its intercultural vibe, surf, food, art and biodiversity — the perfect place to experience Casa Selva."
+  },
+  "testimonios": {
+    "titulo": "Testimonials",
+    "pendiente": "No reviews loaded in this prototype yet. This section will showcase past guests' experiences."
+  },
+  "contacto": {
+    "titulo": "Contact & location",
+    "direccion": "Address",
+    "comoLlegar": "How to get here",
+    "comoLlegarTexto": "150 meters from Sayulita's Playa Norte (~2 min walk) and a 5-minute walk from the main square. The nearest airport is Puerto Vallarta International Airport (PVR), about 50 km away (45–60 min by car).",
+    "checkInOut": "Check-in / Check-out",
+    "escribenos": "Get in touch"
+  },
+  "footer": {
+    "derechos": "All rights reserved."
+  },
+  "chat": {
+    "nombre": "Selva",
+    "placeholder": "Selva, the Relevance AI booking agent, will be connected here in Phase 2 of the project."
+  }
+}
